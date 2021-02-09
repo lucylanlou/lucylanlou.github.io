@@ -139,6 +139,14 @@ h1 {
     padding: 0px 17px 0px 17px;
 }
 
+nav {
+    min-width: 700px;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
 nav a {
     font-family: Montserrat;
     font-weight: 500;
@@ -578,6 +586,85 @@ p {
 }
 
 
+/* PORTFOLIO */
+
+#porfolio-container {
+    width: 100vw;
+    max-width: 1440px;
+    background-color: #F1EBFB;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid {
+    position: relative;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-between;
+    margin: 12vw 0px 50px 0px;
+}
+
+.card {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #67444C;
+    margin-bottom: 6vw;
+    position: relative;
+}
+
+.card-img {
+    margin: 25px;
+    height: 23vw;
+}
+
+.card-text {
+    position: relative;
+    margin: 30px;
+    margin-right: 50px;
+    color: #FBFAED;
+    font-family: Montserrat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-title {
+    font-weight: 900;
+    font-size: 2.25vw;
+}
+
+.subheading {
+    font-style: italic;
+    font-weight: 300;
+    font-size: 1.25vw;
+    margin: .1vw 0px .5vw 0px;
+}
+
+.info {
+    font-size: 1.5vw;
+    font-weight: 300;
+}
+
+.card-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.card-links a {
+    margin-top: 10px;
+    color: #FBFAED;
+    font-weight: 400;
+    font-size: 1.7vw;
+}
+
+
 /* RESUME */
 
 #resume-container {
@@ -712,6 +799,33 @@ p {
         left: 120px;
         bottom: 120px;
     }
+    #club-gym-text {
+        align-items: center;
+    }
+    #club-gym-text p {
+        margin-left: 0px;
+    }
+    #club-gym-links {
+        margin-left: 0px;
+    }
+    #club-gym-picture-rectangle-1 {
+        right: 0px;
+        bottom: 0px;
+        opacity: .25;
+    }
+    #club-gym-picture-rectangle-2 {
+        right: 30px;
+        bottom: 30px;
+        opacity: .5;
+    }
+    #club-gym-picture-rectangle-3 {
+        right: 75px;
+        bottom: 75px;
+    }
+    #club-gym-picture {
+        right: 120px;
+        bottom: 120px;
+    }
     .shadow-text-decor {
         font-size: 120px;
     }
@@ -724,6 +838,27 @@ p {
     .circle-bg-1.contact-circles,
     .circle-bg-2.contact-circles {
         top: 650px;
+    }
+    .grid {
+        margin: 200px 0px 50px 0px;
+    }
+    .card {
+        margin-bottom: 60px;
+    }
+    .card-img {
+        height: 350px;
+    }
+    .card-title {
+        font-size: 36px;
+    }
+    .subheading {
+        font-size: 20px;
+    }
+    .info {
+        font-size: 22px;
+    }
+    .card-links a {
+        font-size: 24px;
     }
 }
 
@@ -857,6 +992,7 @@ p {
     }
     #resume-button {
         font-size: 18px;
+        border-width: 1px;
     }
     .contact-button {
         font-size: 16px;
@@ -864,6 +1000,65 @@ p {
     .circle-bg-1.contact-circles,
     .circle-bg-2.contact-circles {
         top: 52vw;
+    }
+    .card {
+        flex-direction: column;
+        margin-bottom: 8vw;
+    }
+    .grid {
+        margin: 100px 0px 40px 0px;
+        width: 60vw;
+        min-width: 420px;
+    }
+    .card-img {
+        height: 50vw;
+        min-height: 360px;
+        margin: 5vw 0px 5vw 0px;
+    }
+    .card-text {
+        margin: 0px 8vw 8vw 8vw;
+    }
+    .card-title {
+        font-size: 3vw;
+    }
+    .subheading {
+        font-size: 1.9vw;
+    }
+    .info {
+        font-size: 2.3vw;
+    }
+    .card-links {
+        margin-top: 2vw;
+    }
+    .card-links a {
+        font-size: 2.6vw;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    nav {
+        flex-direction: column;
+    }
+    .home-links {
+        margin: 10px 0px 20px 0px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    nav {
+        flex-direction: column;
+    }
+    .card-title {
+        font-size: 22px;
+    }
+    .subheading {
+        font-size: 14px;
+    }
+    .info {
+        font-size: 16px;
+    }
+    .card-links a {
+        font-size: 18px;
     }
 }
 
@@ -906,5 +1101,16 @@ p {
     .circle-bg-1.contact-circles,
     .circle-bg-2.contact-circles {
         top: 60vw;
+    }
+    .grid {
+        margin: 80px 0px 40px 0px;
+        min-width: 85vw;
+    }
+    .card-img {
+        min-height: 75vw;
+        margin: 5vw 0px 5vw 0px;
+    }
+    .card-text {
+        margin-top: 3vw;
     }
 }
