@@ -860,6 +860,11 @@ p {
     .card-links a {
         font-size: 24px;
     }
+    #resume-button {
+        font-size: 36px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
 }
 
 @media only screen and (max-width: 1220px) {
