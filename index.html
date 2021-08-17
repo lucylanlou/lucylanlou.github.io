@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="#" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lucy Lou</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -20,7 +21,13 @@
             <header>
                 <h3>Hi, my name is</h3>
                 <h1>Lucy Lan Lou</h1>
-                <nav>
+                <p id="intro">I originally created this personal website for a class project, but since then I've had a complete new design vision for it and have been working on it on and off. I've recently learned React and love it and am in the process of rewriting
+                    while incorporating components. Not all the features work, but feel free to check it out so far! </p>
+                <div id="button-container">
+                    <div class="button" id="original-button" onclick="showOriginalWebsite();">Original Site</div>
+                    <a class="button" id="new-button" href=assets/files/NewWebsite/index.html>Redesigned Site</a>
+                </div>
+                <nav id="nav">
                     <div class="floral-decor-link home-links">
                         <img src="assets/img/Flower35.svg" class="flower">
                         <a href="#about">About</a>
@@ -478,6 +485,17 @@
                     </svg>
             </div>
         </div>
+        <script>
+            function showOriginalWebsite() {
+                document.getElementById("nav").style.display = "flex";
+                document.getElementById("intro").style.display = "none";
+                document.getElementById("original-button").style.cursor = "default";
+                document.getElementById("original-button").style.color = "#FAE9F3";
+                document.getElementById("original-button").style.backgroundColor = "#67444C";
+                document.body.style.overflowY = "scroll";
+            }
+        </script>
+        </script>
 </body>
 
 </html>

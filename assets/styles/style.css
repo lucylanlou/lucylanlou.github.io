@@ -5,6 +5,11 @@ html {
     margin: 0 auto;
 }
 
+body {
+    height: 100vh;
+    overflow-y: hidden;
+}
+
 a {
     text-decoration: none;
 }
@@ -12,6 +17,10 @@ a {
 a:hover {
     text-decoration: none;
     color: inherit;
+}
+
+a:visited {
+    text-decoration: none;
 }
 
 .wrapper {
@@ -49,10 +58,16 @@ header {
     margin-top: -50px;
 }
 
+#intro {
+    margin-top: 2.5vw;
+    font-size: 18px;
+    width: 55%
+}
+
 h3 {
     font-family: Lexend Peta;
     font-size: 34px;
-    color: #637062;
+    color: #67444C;
     margin-bottom: 0px;
 }
 
@@ -145,6 +160,7 @@ nav {
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
+    display: none;
 }
 
 nav a {
@@ -156,6 +172,36 @@ nav a {
 
 nav a:hover {
     color: #637062;
+}
+
+#button-container {
+    margin-top: 2vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    border-radius: 20px;
+    width: 250px;
+    height: 28px;
+    background-color: #FAE9F3;
+    padding: 5px;
+    margin: 20px;
+    color: #67444C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #67444C !important;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #67444C;
+    color: #FAE9F3;
+    transition: 500ms;
+    /* transform: scale(1.05); */
 }
 
 
@@ -1064,6 +1110,15 @@ p {
     }
     .card-links a {
         font-size: 18px;
+    }
+    #intro {
+        font-size: 14px;
+    }
+    #button-container {
+        flex-direction: column;
+    }
+    .button {
+        margin: 10px;
     }
 }
 
