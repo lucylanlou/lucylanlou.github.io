@@ -109,7 +109,8 @@ p {
 }
 
 .polaroid-pic {
-    width: 130px;
+    position: relative;
+    width: 88%;
 }
 
 .clothes-pin {
@@ -374,7 +375,7 @@ header {
         max-width: 70vw;
     }
     .polaroid-wrapper-4 {
-        width: 70vw;
+        width: 75vw;
     }
     .polaroid-wrapper-5 {
         width: 85vw;
@@ -386,13 +387,72 @@ header {
 }
 
 @media only screen and (max-width: 750px) {
+    .polaroid-wrapper-3 {
+        max-width: 75vw;
+    }
+    .polaroid-wrapper-4 {
+        width: 80vw;
+    }
+    .polaroid-wrapper-5 {
+        width: 90vw;
+    }
     p {
-        font-size: 15px;
+        font-size: 17px;
+    }
+    h1 {
+        font-size: 17vw;
+    }
+    .subtitle {
+        /* flex-direction: column;
+        justify-content: center;
+        align-items: center; */
+        width: 400px;
+    }
+    .marquee-title img {
+        height: 20vw;
+    }
+    .polaroid-wrapper-home {
+        width: 900px;
+    }
+    .polaroid {
+        width: 100px;
+        height: auto;
+    }
+    .home-polaroid {
+        height: 125px;
+    }
+    .polaroid-text {
+        font-size: smaller;
+    }
+    /* probably change later */
+    .home-grid {
+        height: auto;
+    }
+    .row {
+        height: auto;
+    }
+    #home {
+        min-height: 525px;
     }
 }
 
 @media only screen and (max-width: 450px) {
+    .polaroid-wrapper-3 {
+        max-width: 90vw;
+    }
+    .polaroid-wrapper-4 {
+        width: 95vw;
+    }
+    .polaroid-wrapper-5 {
+        width: 95vw;
+    }
     p {
         font-size: 13px;
+    }
+    .subtitle {
+        width: 330px;
+    }
+    #resume-button {
+        border-width: 0;
     }
 }
