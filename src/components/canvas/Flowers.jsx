@@ -4,25 +4,31 @@ import { OrbitControls, Preload, useGLTF } from '@react-three/drei';
 import CanvasLoader from '../Loader';
 
 const Flowers = ( { isMobile } ) => {
-  const flower = useGLTF('./flowers/scene.gltf')
+  const flower = useGLTF('./daisies/daisies.gltf')
   return (
     <mesh>
-      <hemisphereLight intensity={0.15}
+      <hemisphereLight intensity={2.5}
       groundColor="black" />
       <pointLight intensity={1} />
       <spotLight 
-        position={[-20, 50, 10]} 
-        angle={0.12}
+        position={[200, 500, 6000]} 
+        angle={45}
         penumbra={1}
         intensity={1}
-        castShadow
-        //shadowMapSize={1024}
+        castshadow
+      />
+      <spotLight 
+        position={[-200, -500, -6000]} 
+        angle={45}
+        penumbra={1}
+        intensity={1}
+        castshadow
       />
       <primitive 
         object={flower.scene} 
-        scale={isMobile ? 0.1 : 0.15}
-        position={isMobile ? [0, -1.8, -3.2] : [0, -1.8, -4.7]} //?, y, x
-        rotation={[0, 0, 0]}
+        scale={isMobile ? 40 : 45}
+        position={isMobile ? [0, -3.8, 0] : [0, -3.9, 0]} //?, y, x
+        rotation={[0, 1.3, 0]}
       />
     </mesh>
   )

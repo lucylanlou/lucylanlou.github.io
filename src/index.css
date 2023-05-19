@@ -38,6 +38,12 @@
     background: -webkit-linear-gradient( -90deg, #A73B75 0%, rgba(60, 51, 80, 0) 100%);
 }
 
+.green-gradient {
+    background: #1F6825;
+    background: linear-gradient(-90deg, #1F6825 0%, rgba(60, 51, 80, 0) 100%);
+    background: -webkit-linear-gradient( -90deg, #1F6825 0%, rgba(60, 51, 80, 0) 100%);
+}
+
 .pink-green-gradient {
     background: #FCB4DE;
     background: linear-gradient(-90deg, #FCB4DE 0%, #8dbc8f 97.5%);

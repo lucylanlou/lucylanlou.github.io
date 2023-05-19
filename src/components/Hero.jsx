@@ -26,22 +26,29 @@ const Hero = () => {
 
       <FlowersCanvas />
 
-      <div className="absolute xs:bottom-10 bottom-32 w-full 
+      <div className="absolute xs:bottom-5 bottom-5 w-full 
       flex justify-center items-center">
         <a href="#about">
-          <div className="w-[35px] h-[64px] rounded-3xl border-4 
-          border-secondary flex justify-center items-start p-2">
-            <motion.dev 
+          <div className="w-[55px] h-[64px] flex justify-center items-start p-2">
+            <motion.div 
               animate={{
-                y: [0, 24, 0]
+                y: [12, 0, 12]
               }}
               transition={{
                 duration: 1.5,
                 repeat: Infinity,
                 repeatType: 'loop'
               }}
-              className="w-3 h-3 rounded-full bg-secondary mb-1"
-            />
+            >
+              <div className="flex">
+                <div className="w-1 h-5 bg-quadinary rotate-[125deg] mr-1 ml-1"></div>
+                <div className="w-1 h-5 bg-quadinary rotate-[55deg] ml-1 mr-1"></div>
+              </div>
+              <div className="flex">
+                <div className="w-1 h-5 bg-quadinary rotate-[125deg] mr-1 ml-1"></div>
+                <div className="w-1 h-5 bg-quadinary rotate-[55deg] ml-1 mr-1"></div>
+              </div>
+            </motion.div>
           </div>
         </a>
       </div>
