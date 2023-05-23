@@ -3,13 +3,16 @@ import reactNative from "./blue.svg";
 import uiux from "./pink.svg";
 import web from "./violet.svg";
 import fullStack from "./sunflower.svg";
-import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import link from "./link.svg";
+import arrow from "./arrow.svg";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
+import creativecloud from "./tech/creativecloud.png";
+import github from "./tech/github.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
@@ -18,6 +21,10 @@ import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
+import materialui from "./tech/materialui.png";
+import python from "./tech/python.png";
+import cpp from "./tech/cpp.png";
+import java from "./tech/java.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
@@ -25,9 +32,10 @@ import thermofisher from "./company/thermofisher.png";
 import csm from "./company/csm.png";
 import mesabiotech from "./company/mesabiotech.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import tinytales from "./tinytales.png";
+import gymhaus from "./gymhaus.png";
+import kingpin from "./kingpin.png";
+import scrunchies4sma from "./scrunchies4sma.png";
 
 export {
     logo,
@@ -35,12 +43,15 @@ export {
     uiux,
     web,
     fullStack,
-    github,
     menu,
     close,
+    link,
+    arrow,
     css,
     docker,
+    github,
     figma,
+    creativecloud,
     git,
     html,
     javascript,
@@ -49,12 +60,17 @@ export {
     reactjs,
     redux,
     tailwind,
+    materialui,
+    python,
+    cpp,
+    java,
     typescript,
     threejs,
     thermofisher,
     csm,
     mesabiotech,
-    carrent,
-    jobit,
-    tripguide,
+    tinytales,
+    gymhaus,
+    kingpin,
+    scrunchies4sma,
 };

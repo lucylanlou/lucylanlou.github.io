@@ -5,16 +5,16 @@ import { Decal, Float, OrbitControls, Preload, useTexture } from '@react-three/d
 import CanvasLoader from '../Loader';
 
 const Ball = (props) => {
-const [decal] = useTexture([props.imgUrl]);
+  const [decal] = useTexture([props.imgUrl]);
 
   return (
-<Float speed={1.75} rotationIntensity={1} floatIntensity={2}>
-      <ambientLight intensity={0.25} />
+    <Float speed={1.75} rotationIntensity={1} floatIntensity={2}>
+      <ambientLight intensity={0.65} />
       <directionalLight position={[0, 0, 0.05]} />
       <mesh castShadow receiveShadow scale={2.75}>
         <icosahedronGeometry args={[1, 1]} />
         <meshStandardMaterial
-          color='#fff8eb'
+          color='#FFF8FC'
           polygonOffset
           polygonOffsetFactor={-5}
           flatShading

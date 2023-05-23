@@ -10,17 +10,23 @@ import {
     reactjs,
     redux,
     tailwind,
+    materialui,
+    python,
+    cpp,
+    java,
     nodejs,
     mongodb,
-    git,
+    github,
     figma,
+    creativecloud,
     docker,
     csm,
     mesabiotech,
     thermofisher,
-    carrent,
-    jobit,
-    tripguide,
+    tinytales,
+    gymhaus,
+    kingpin,
+    scrunchies4sma,
     threejs,
 } from "../assets";
 
@@ -56,7 +62,24 @@ const services = [{
     },
 ];
 
-const technologies = [{
+const technologies = [
+    {
+        name: "React JS",
+        icon: reactjs,
+    },
+    {
+        name: "Python",
+        icon: python,
+    },
+    {
+        name: "C++",
+        icon: cpp,
+    },
+    {
+        name: "Java",
+        icon: java,
+    },
+    {
         name: "HTML 5",
         icon: html,
     },
@@ -73,40 +96,28 @@ const technologies = [{
         icon: typescript,
     },
     {
-        name: "React JS",
-        icon: reactjs,
-    },
-    // {
-    //     name: "Material UI",
-    //     icon: redux,
-    // },
-    {
         name: "Tailwind CSS",
         icon: tailwind,
     },
-    // {
-    //     name: "C++",
-    //     icon: nodejs,
-    // },
-    // {
-    //     name: "Python",
-    //     icon: mongodb,
-    // },
+    {
+        name: "Material UI",
+        icon: materialui,
+    },
     {
         name: "Three JS",
         icon: threejs,
     },
-    // {
-    //     name: "github",
-    //     icon: git,
-    // },
     {
-        name: "figma",
+        name: "Figma",
         icon: figma,
     },
+    {
+        name: "Adobe Creative Cloud",
+        icon: creativecloud,
+    },
     // {
-    //     name: "Adobe Cloud",
-    //     icon: docker,
+    //     name: "GitHub",
+    //     icon: github,
     // },
     // {
     //     name: "Blender",
@@ -191,52 +202,71 @@ const testimonials = [{
 ];
 
 const projects = [{
-        name: "Car Rent",
-        description: "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        name: "Tiny Tales",
+        description: "This is an early childhood education app aimed at developing language skills while fostering creativity through storytelling. We use the Google Cloud Vision API to order images (previously imported by the user) based on similar keywords for continuity. Then the child is able to record a story with these 4 images. I was the front-end lead and part of the UI design team.",
         tags: [{
-                name: "react",
+                name: "android application",
                 color: "blue-text-gradient",
             },
             {
-                name: "mongodb",
+                name: "google api",
                 color: "green-text-gradient",
             },
             {
-                name: "tailwind",
+                name: "figma",
                 color: "pink-text-gradient",
             },
         ],
-        image: carrent,
-        source_code_link: "https://github.com/",
+        image: tinytales,
+        source_code_link: "/src/assets/files/TinyTalesReport.pdf",
     },
     {
-        name: "Job IT",
-        description: "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        name: "GymHaus",
+        description: "This was my first website I made! During the summer, my friend designed Covid-19 t-shirts he wanted to sell to help donate funds for frontline workers. He asked me to design and create this website for him. Sadly, he wasn’t able to continue with this project, so we never launched the full website. Besides the pictures of the shirts, all other images are stock photos.",
         tags: [{
-                name: "react",
+                name: "html",
                 color: "blue-text-gradient",
             },
             {
-                name: "restapi",
+                name: "css",
                 color: "green-text-gradient",
             },
             {
-                name: "scss",
+                name: "web design",
                 color: "pink-text-gradient",
             },
         ],
-        image: jobit,
-        source_code_link: "https://github.com/",
+        image: gymhaus,
+        source_code_link: "/src/assets/files/GymHaus Website/gymhaus.html",
     },
     {
-        name: "Trip Guide",
-        description: "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        name: "Scrunchies 4 SMA",
+        description: "Spinal Muscular Atrophy (SMA) is a disease my brother has, and this is a passion project where scrunchies made from scrap fabric will raise funds for SMA cure research. It started as a project for a brand identity and graphic design class where I created stylescapes, logos, and other mockups. The color scheme is bright and sparkly to symbolize happiness and hope, and the logo is created with hand drawn hearts.",
         tags: [{
-                name: "nextjs",
+                name: "branding",
                 color: "blue-text-gradient",
             },
             {
-                name: "supabase",
+                name: "graphic design",
+                color: "green-text-gradient",
+            },
+            {
+                name: "adobe illustrator",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: scrunchies4sma,
+        source_code_link: "/src/assets/files/Scrunchies4SMA.pdf",
+    },
+    {
+        name: "KingPin Donuts Remake",
+        description: "KingPin Donuts is a donut shop near UC Berkeley. They have great donuts; however, their website according to my web deisgn class needed improvement, so that was our assignment. This is my remake. I wanted it to be a simple design and put an emphasis on using mouthwatering pictures since luring customers in would be the goal of a donut website.",
+        tags: [{
+                name: "web design",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "html",
                 color: "green-text-gradient",
             },
             {
@@ -244,9 +274,28 @@ const projects = [{
                 color: "pink-text-gradient",
             },
         ],
-        image: tripguide,
-        source_code_link: "https://github.com/",
+        image: kingpin,
+        source_code_link: "/src/assets/files/KingPin/index.html",
     },
+    // {
+    //     name: "Sleepy Cat Books Logo",
+    //     description: "Come Make Your marK Designathon",
+    //     tags: [{
+    //             name: "branding",
+    //             color: "blue-text-gradient",
+    //         },
+    //         {
+    //             name: "graphic design",
+    //             color: "green-text-gradient",
+    //         },
+    //         {
+    //             name: "adobe illustrator",
+    //             color: "pink-text-gradient",
+    //         },
+    //     ],
+    //     image: kingpin,
+    //     source_code_link: "https://github.com/",
+    // },
 ];
 
 export { services, technologies, experiences, testimonials, projects };

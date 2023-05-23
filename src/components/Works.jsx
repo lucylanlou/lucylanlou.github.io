@@ -2,7 +2,7 @@ import Tilt from "react-parallax-tilt";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
-import { github } from "../assets";
+import { arrow } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
@@ -29,12 +29,12 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
         <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
           <div
             onClick={() => window.open(source_code_link, "_blank")}
-            className="black-gradient w-10 h-10 rounded-full flex justify-center
+            className="bg-tertiary w-10 h-10 rounded-full flex justify-center
             items-center cursor-pointer"
           >
             <img
-              src={github}
-              alt="github"
+              src={arrow}
+              alt="see more"
               className="w-1/2 h-1/2 object-contain"
             />
           </div>
@@ -71,7 +71,7 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-            Here are some of my class and side projects! Besides this website, 
+            Here are some of my class and side projects! Besides this website, which uses React, Tailwind CSS, and Three.js,
             I’ve designed and coded some others. I’ve also made a few android apps. 
             I had a lot of fun with creating these; I love seeing my visions come to life.
         </motion.p>
