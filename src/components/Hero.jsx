@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import { down } from "../assets";
 
 import { styles } from '../styles'
 import { FlowersCanvas } from './canvas';
@@ -40,14 +41,24 @@ const Hero = () => {
                 repeatType: 'loop'
               }}
             >
-              <div className="flex">
+              {/* <div className="flex">
                 <div className="w-1 h-5 bg-quadinary rotate-[125deg] mr-1 ml-1"></div>
                 <div className="w-1 h-5 bg-quadinary rotate-[55deg] ml-1 mr-1"></div>
               </div>
               <div className="flex">
                 <div className="w-1 h-5 bg-quadinary rotate-[125deg] mr-1 ml-1"></div>
                 <div className="w-1 h-5 bg-quadinary rotate-[55deg] ml-1 mr-1"></div>
-              </div>
+              </div> */}
+            <img
+              src={down}
+              alt="see more"
+              className="sm:mt-0 mt-5 sm:w-8 w-5 object-contain"
+            />
+            <img
+              src={down}
+              alt="see more"
+              className="sm:w-8 w-5 object-contain"
+            />
             </motion.div>
           </div>
         </a>

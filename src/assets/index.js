@@ -7,6 +7,10 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 import link from "./link.svg";
 import arrow from "./arrow.svg";
+import down from "./down.svg";
+
+import resume from "./resume.svg";
+import linkedin from "./linkedin.svg";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -47,6 +51,9 @@ export {
     close,
     link,
     arrow,
+    down,
+    resume,
+    linkedin,
     css,
     docker,
     github,
