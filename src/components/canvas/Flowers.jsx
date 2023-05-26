@@ -26,8 +26,8 @@ const Flowers = ( { isMobile } ) => {
       />
       <primitive 
         object={flower.scene} 
-        scale={isMobile ? 40 : 45}
-        position={isMobile ? [0, -3.8, 0] : [0, -3.9, 0]} //?, y, x
+        scale={isMobile ? 30 : 45}
+        position={isMobile ? [0, 0, 0] : [0, -0.8, 0]} //?, y, x
         rotation={[0, 1.3, 0]}
       />
     </mesh>

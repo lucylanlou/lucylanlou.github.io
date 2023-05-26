@@ -21,8 +21,8 @@ const Cat = () => {
       />
     <primitive
       object={cat.scene}
-      scale={0.12}
-      positionY={0}
+      scale={0.13}
+      position={[0, -1.3, 0]}
       rotationY={0}
     />
     </mesh>

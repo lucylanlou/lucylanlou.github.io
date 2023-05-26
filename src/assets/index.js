@@ -30,7 +30,7 @@ import python from "./tech/python.png";
 import cpp from "./tech/cpp.png";
 import java from "./tech/java.png";
 import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
+import threejs from "./tech/threejs.png";
 
 import thermofisher from "./company/thermofisher.png";
 import csm from "./company/csm.png";
