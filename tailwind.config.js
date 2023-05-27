@@ -18,6 +18,8 @@ module.exports = {
             },
             screens: {
                 xs: "450px",
+                // "tall": "min-height: 880px",
+                // "med": "min-height: 750px",
             },
             backgroundImage: {
                 "hero-pattern": "url('/src/assets/herobg.png')",
