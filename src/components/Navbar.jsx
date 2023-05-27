@@ -42,7 +42,7 @@ const Navbar = () => {
           </ul>
 
           <div className="flex flex-row gap-2">
-            <a href="/src/assets/files/LucyLou_Resume.pdf">
+            <a href="/files/LucyLou_Resume.pdf" target="_blank">
               <img src={resume} alt="logo" className="w-8 h-8 object-contain hover:fill-black-100" />
             </a>
             <a href="https://www.linkedin.com/in/lucy-lou/">
