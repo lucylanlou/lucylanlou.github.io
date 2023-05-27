@@ -74,7 +74,7 @@ const Navbar = () => {
                 </li>
               ))}
               <li className="text-secondary hover:text-black-100 font-poppins font-medium cursor-pointer text-[16px]">
-                <a href="/src/assets/files/LucyLou_Resume.pdf">Resume</a>
+                <a href="/files/LucyLou_Resume.pdf">Resume</a>
               </li>
               <li className="text-secondary hover:text-black-100 font-poppins font-medium cursor-pointer text-[16px]">
                 <a href="https://www.linkedin.com/in/lucy-lou/">LinkedIn</a>
