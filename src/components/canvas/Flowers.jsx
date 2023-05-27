@@ -26,8 +26,8 @@ const Flowers = ( { isMobile } ) => {
       />
       <primitive 
         object={flower.scene} 
-        scale={isMobile ? 30 : 45}
-        position={isMobile ? [0, 0, 0] : [0, -0.8, 0]} //?, y, x
+        scale={isMobile ? 28 : 45}
+        position={isMobile ? [0, 0.5, 0] : [0, -0.8, 0]} //?, y, x
         rotation={[0, 1.3, 0]}
       />
     </mesh>
@@ -59,9 +59,11 @@ const FlowersCanvas = () => {
       shadows
       camera={{position: [20, 3, 5], fov: 25 }}
       gl={{ preserveDrawingBuffer: true }}
+      
       >
         <Suspense fallback={<CanvasLoader /> }>
           <OrbitControls
+            enablePan={false}
             enableZoom={false}
             maxPolarAngle={Math.PI / 2}
             minPolarAngle={Math.PI / 2}
