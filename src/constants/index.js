@@ -218,7 +218,7 @@ const projects = [{
             },
         ],
         image: tinytales,
-        source_code_link: "/src/assets/files/TinyTalesReport.pdf",
+        source_code_link: "/files/TinyTalesReport.pdf",
     },
     {
         name: "GymHaus",
@@ -237,7 +237,7 @@ const projects = [{
             },
         ],
         image: gymhaus,
-        source_code_link: "/src/assets/files/GymHaus Website/gymhaus.html",
+        source_code_link: "/files/GymHaus Website/gymhaus.html",
     },
     {
         name: "Scrunchies 4 SMA",
@@ -256,7 +256,7 @@ const projects = [{
             },
         ],
         image: scrunchies4sma,
-        source_code_link: "/src/assets/files/Scrunchies4SMA.pdf",
+        source_code_link: "/files/Scrunchies4SMA.pdf",
     },
     {
         name: "KingPin Donuts Remake",
@@ -275,7 +275,7 @@ const projects = [{
             },
         ],
         image: kingpin,
-        source_code_link: "/src/assets/files/KingPin/index.html",
+        source_code_link: "/files/KingPin/index.html",
     },
     // {
     //     name: "Sleepy Cat Books Logo",
