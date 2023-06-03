@@ -6,7 +6,7 @@ import { FlowersCanvas } from './canvas';
 
 const Hero = () => {
   return (
-    <section className="relative w-full h-80vh sm:h-screen min-h-[700px] mx-auto">
+    <section className="relative w-full h-[80vh] sm:h-screen min-h-[700px] mx-auto">
       <div className={`${styles.paddingX} inset-0 pt-[120px] max-w-7xl
       mx-auto flex flex-row items-start gap-5`}>
         <div className="flex flex-col justify-center items-center mt-5">
