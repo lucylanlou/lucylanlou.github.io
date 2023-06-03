@@ -125,17 +125,29 @@ const technologies = [
     // },
 ];
 
-const experiences = [{
-        title: "CS Mentor",
-        company_name: "Computer Science Mentors",
-        icon: csm,
+const experiences = [
+    {
+        title: "Software Engineer II",
+        company_name: "Thermo Fisher Scientific",
+        icon: thermofisher,
         iconBg: "#FFF8FC",
-        date: "August 2019 - January 2021",
+        date: "July 2022 - Present",
         points: [
-            "Tutored small group every week on CS61A topics",
-            "Created cribsheets for various topics for future mentors",
-            "<something about teaching strategies>",
-            "<something about collaboration and communication>",
+            "Collaborated cross-functionally to accelerate feature completion of an embedded systems medical PCR testing device by implementing user interface and new functionalities (such as exporting logs to a USB, scanning/saving barcode data, user authentication and persistent lockout if auth fails 3x)",
+            "Troubleshooted/fixed bugs in firmware with hierarchical state machines & asynchronous processing",
+            "Integrated and improved the device target line detection algorithm using smoothing, color contrast, and derivatives",
+        ],
+    },
+    {
+        title: "Software Engineer Intern",
+        company_name: "Thermo Fisher Scientific",
+        icon: thermofisher,
+        iconBg: "#FFF8FC",
+        date: "Jan 2021 - August 2021",
+        points: [
+            "Built React Native mobile app that aids with recording mass PCR testing by scanning patient infobarcodes, takes pictures of result strips, and uploads to an AWS Cloud database",
+            "Enhanced website used to view test results with company branding, test strip image viewing ability, and interactive customer stat graphs with various React APIs",
+            "Created Power BI reports for marketing spends",
         ],
     },
     {
@@ -153,27 +165,16 @@ const experiences = [{
         ],
     },
     {
-        title: "Software Engineer Intern",
-        company_name: "Thermo Fisher Scientific",
-        icon: thermofisher,
+        title: "CS Mentor",
+        company_name: "Computer Science Mentors",
+        icon: csm,
         iconBg: "#FFF8FC",
-        date: "Jan 2021 - Jan 2023",
+        date: "August 2019 - January 2021",
         points: [
-            "Built React Native mobile app that aids with recording mass PCR testing by scanning patient infobarcodes, takes pictures of result strips, and uploads to an AWS Cloud database",
-            "Enhanced website used to view test results with company branding, test strip image viewing ability, and interactive customer stat graphs with various React APIs",
-            "Created Power BI reports for marketing spends",
-        ],
-    },
-    {
-        title: "Software Engineer II",
-        company_name: "Thermo Fisher Scientific",
-        icon: thermofisher,
-        iconBg: "#FFF8FC",
-        date: "July 2022 - Present",
-        points: [
-            "Collaborated cross-functionally to accelerate feature completion of an embedded systems medical PCR testing device by implementing user interface and new functionalities (such as exporting logs to a USB, scanning/saving barcode data, user authentication and persistent lockout if auth fails 3x)",
-            "Troubleshooted/fixed bugs in firmware with hierarchical state machines & asynchronous processing",
-            "Integrated and improved the device target line detection algorithm using smoothing, color contrast, and derivatives",
+            "Tutored small group every week on CS61A topics",
+            "Created cribsheets on various topics for future mentors",
+            "Encorporated different teaching strategies to adapt to different students such as scaffolding, peer learning, and using analogies",
+            "Collaborated and communicated with other mentors with regular interaction and feedback.",
         ],
     },
 ];
