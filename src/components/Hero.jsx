@@ -29,7 +29,7 @@ const Hero = () => {
         <FlowersCanvas />
       </div>
 
-      <div className="absolute sm:bottom-[10px] bottom-[-10px] w-full flex justify-center items-center">
+      <div className="absolute z-10 sm:bottom-[10px] bottom-[20px] w-full flex justify-center items-center">
         <a href="#about">
           <div className="w-[55px] h-[64px] flex justify-center items-start p-0">
             <motion.div 
