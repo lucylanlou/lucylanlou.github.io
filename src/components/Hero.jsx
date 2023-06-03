@@ -6,7 +6,7 @@ import { FlowersCanvas } from './canvas';
 
 const Hero = () => {
   return (
-    <section className="relative w-full h-screen min-h-[880px] mx-auto">
+    <section className="relative w-full h-80vh sm:h-screen min-h-[700px] mx-auto">
       <div className={`${styles.paddingX} inset-0 pt-[120px] max-w-7xl
       mx-auto flex flex-row items-start gap-5`}>
         <div className="flex flex-col justify-center items-center mt-5">
@@ -25,11 +25,11 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="relative sm:w-[750px] w-full h-full mt-[-100px] mx-auto">
+      <div className="relative m:w-[750px] w-full h-[60%] mt-[-70px] mx-auto">
         <FlowersCanvas />
       </div>
 
-      <div className="absolute xs:bottom-10 bottom-52 w-full flex justify-center items-center">
+      <div className="absolute sm:bottom-[10px] bottom-[-10px] w-full flex justify-center items-center">
         <a href="#about">
           <div className="w-[55px] h-[64px] flex justify-center items-start p-0">
             <motion.div 
