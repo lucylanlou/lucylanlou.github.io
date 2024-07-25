@@ -29,7 +29,7 @@ const Navbar = () => {
           </p>
         </Link>
 
-        <div className="hidden md:flex flex-row gap-10 items-center">
+        <div className="hidden lg:flex flex-row gap-10 items-center">
           <ul className="list-none flex flex-row gap-10">
             {navLinks.map((link) => (
               <li
@@ -63,7 +63,7 @@ const Navbar = () => {
           </div>
         </div>
 
-        <div className="md:hidden flex flex-1 justify-end items-center">
+        <div className="lg:hidden flex flex-1 justify-end items-center">
           <img
             src={toggle ? close : menu}
             alt="menu"
@@ -76,11 +76,11 @@ const Navbar = () => {
             } bg-white-100 absolute top-20 
             right-0 my-2 w-full z-10 rounded-b-xl justify-center items-center `}
           >
-            <ul className="list-none flex justify-center items-center flex-col gap-4 w-full h-full p-6 ">
+            <ul className="list-none flex justify-center items-center flex-col gap-6 w-full h-full p-8 ">
               {navLinks.map((link) => (
                 <li
                   key={link.id}
-                  className={`${
+                  className={`w-full text-center ${
                     active === link.title ? "text-black-100" : "text-secondary"
                   }
                   hover:text-black-100 font-poppins font-medium cursor-pointer text-[16px]`}
@@ -92,10 +92,10 @@ const Navbar = () => {
                   <a href={`#${link.id}`}>{link.title}</a>
                 </li>
               ))}
-              <li className="text-secondary hover:text-black-100 font-poppins font-medium cursor-pointer text-[16px]">
+              <li className="text-secondary hover:text-black-100 font-poppins font-medium cursor-pointer text-[16px] w-full h-full text-center">
                 <a href="/files/LucyLou_Resume.pdf">Resume</a>
               </li>
-              <li className="text-secondary hover:text-black-100 font-poppins font-medium cursor-pointer text-[16px]">
+              <li className="text-secondary hover:text-black-100 font-poppins font-medium cursor-pointer text-[16px] w-full h-full text-center">
                 <a href="https://www.linkedin.com/in/lucy-lou/">LinkedIn</a>
               </li>
             </ul>
