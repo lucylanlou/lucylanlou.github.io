@@ -110,7 +110,7 @@ const FlowersCanvas = () => {
       shadows
       camera={{ position: [20, 3, 5], fov: 25 }}
       gl={{ preserveDrawingBuffer: true }}
-      className="flex grow mt-1 mx-auto !touch-pan-y"
+      className="flex grow mt-[min(2vh,20px)] mx-auto !touch-pan-y"
     >
       <Suspense fallback={<CanvasLoader />}>
         <RotatingControls rotations={2} initialRotation={1.3} />
