@@ -130,16 +130,17 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Engineer (Frontend and UI/UX)",
+    title: "Frontend Engineer",
     company_name: "Ethicable",
     icon: ethicable,
     iconBg: "#FFF8FC",
     date: "August 2023 - Present",
     points: [
-      "Executed the majority of frontend/ui/ux decisions in a fast-paced startup environment",
-      "Designed and coded the React.js portion of ethicable.ai and trustwrite.ai",
-      "Rebranded color scheme and logo to better reflect company values and mission",
-      "Worked on backend integration with GraphQL, Redis Pub/Sub, and AWS SQS and SNS",
+      "Spearheaded frontend/UI/UX development, expediting our product, TrustWrite, to beta stage",
+      "Designed & implemented: dashboards with statistical graphs, tables to list student submissions from Canvas LMS, timed quizzes, and score reports; with a focus on usability and intuitive design",
+      "Rebranded color scheme and redesigned logo to better reflect company values and mission",
+      "Redesigned & launched landing pages ethicable.ai & trustwrite.ai, attracting 8 new potential clients",
+      "Integrated code with backend engineer to support GraphQL, Redis Pub/Sub, and AWS SQS and SNS",
     ],
   },
   {
@@ -149,9 +150,8 @@ const experiences = [
     iconBg: "#FFF8FC",
     date: "July 2022 - June 2023",
     points: [
-      "Collaborated cross-functionally to accelerate feature completion of an embedded systems medical PCR testing device by implementing user interface and new functionalities (such as exporting logs to a USB, scanning/saving barcode data, user authentication and persistent lockout if auth fails 3x)",
-      "Troubleshooted/fixed bugs in firmware with hierarchical state machines & asynchronous processing",
-      "Integrated and improved the device target line detection algorithm using smoothing, color contrast, and derivatives",
+      "Collaborated with R&D scientists and UX designers to accelerate an embedded systems medical PCR testing device to feature completion by testing/troubleshooting/fixing bugs and implementing UI & new functionalities: USB exporting, barcode scanning, and user authentication",
+      "Optimized and improved the device’s target line detection algorithm accuracy from 44% to 98% using image processing techniques such as smoothing, color contrast, and pixel derivatives",
     ],
   },
   {
@@ -161,9 +161,10 @@ const experiences = [
     iconBg: "#FFF8FC",
     date: "Jan 2021 - August 2021",
     points: [
-      "Built React Native mobile app that aids with recording mass PCR testing by scanning patient infobarcodes, takes pictures of result strips, and uploads to an AWS Cloud database",
-      "Enhanced website used to view test results with company branding, test strip image viewing ability, and interactive customer stat graphs with various React APIs",
-      "Created Power BI reports for marketing spends",
+      "Learned React and React Native in order to handle mobile/web development in house, eliminating outsourcing costs and increasing project delivery efficiency",
+      "Built React Native mobile app that scans patient info barcodes and takes pictures and uploads test result strips to AWS Cloud to aid with recording mass PCR testing",
+      "Enhanced Material UI ReactJS website that was used to view test results with the following: company branding, test strip image viewing ability, and interactive customer statistical charts and graphs",
+      "Created Power BI reports to assist the marketing team in optimizing spending and maximizing ROI",
     ],
   },
   {
@@ -173,11 +174,10 @@ const experiences = [
     iconBg: "#FFF8FC",
     date: "June 2020 - August 2021",
     points: [
-      "Worked on the UI design and firmware development of touch screen PCR testing device",
-      "Prototyped UI with Adobe XD and implemented with STemWin gui graphics library",
-      "Developed the front-end and back-end of new features such a maintenance user with unique hashed passwords retrievable with an external app and a test result print functionality",
-      "Implemented unit-testing with VS C++ NativeUnit Test framework",
-      "Updated software requirements documentation",
+      "Prototyped with Adobe XD and creatively implemented the design team’s UI changes for our touch screen product, overcoming limitations of the STemWin GUI graphics library",
+      "Developed features such a maintenance user w/ hashed passwords & a test result print functionality",
+      "Initiated unit-testing with VS C++ NativeUnit Test framework to aid test driven development",
+      "Updated SW requirements documentation & refactored code to improve maintainability & scalability",
     ],
   },
   {
@@ -187,10 +187,10 @@ const experiences = [
     iconBg: "#FFF8FC",
     date: "August 2019 - January 2021",
     points: [
-      "Tutored small group every week on CS61A topics",
+      "Tutored small group every week on CS61A topics improving retention of students in the class",
       "Created cribsheets on various topics for future mentors",
-      "Encorporated different teaching strategies to adapt to different students such as scaffolding, peer learning, and using analogies",
-      "Collaborated and communicated with other mentors with regular interaction and feedback.",
+      "Incorporated different teaching strategies to adapt to different students such as scaffolding, peer learning, and using analogies",
+      "Collaborated and communicated with other mentors regularly for feedback.",
     ],
   },
 ];
@@ -289,7 +289,7 @@ const projects = [
   {
     name: "KingPin Donuts Remake",
     description:
-      "KingPin Donuts is a donut shop near UC Berkeley. They have great donuts; however, their website according to my web deisgn class needed improvement, so that was our assignment. This is my remake. I wanted it to be a simple design and put an emphasis on using mouthwatering pictures since luring customers in would be the goal of a donut website.",
+      "KingPin Donuts is a donut shop near UC Berkeley. They have great donuts; however, their website according to my web deisgn class needed improvement (update: they've redesigned their website at some point!), so that was our assignment. This is my remake. I wanted it to be a simple design and put an emphasis on using mouthwatering pictures since luring customers in would be the goal of a donut website.",
     tags: [
       {
         name: "web design",

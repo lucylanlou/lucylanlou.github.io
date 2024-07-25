@@ -4,23 +4,33 @@ import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { arrow } from "../assets";
 import { SectionWrapper } from "../hoc";
-import { projects } from '../constants';
-import { fadeIn, textVariant } from '../utils/motion';
+import { projects } from "../constants";
+import { fadeIn, textVariant } from "../utils/motion";
 
-const ProjectCard = ({ index, name, description, tags, image, source_code_link }) => {
+const ProjectCard = ({
+  index,
+  name,
+  description,
+  tags,
+  image,
+  source_code_link,
+}) => {
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+    <motion.div
+      className="sm:min-w-[360px] lg:max-w-full sm:max-w-[460px] "
+      variants={fadeIn("up", "spring", index * 0.5, 0.75)}
+    >
       <Tilt
         options={{
           max: 45,
           scale: 1,
-          speed: 450
+          speed: 450,
         }}
-        className="bg-white-100 p-5 rounded-2xl sm:w-[460px] w-full"
+        className="bg-white-100 p-5 rounded-2xl w-full"
       >
-        <div className="relative w-full h-[230px]">
-          <img 
-            src={image} 
+        <div className="relative w-full">
+          <img
+            src={image}
             alt={name}
             className="w-full h-full object-cover rounded-2xl"
           />
@@ -54,9 +64,8 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
         </div>
       </Tilt>
     </motion.div>
-    
-  )
-}
+  );
+};
 
 const Works = () => {
   return (
@@ -69,25 +78,22 @@ const Works = () => {
       <div className="w-full flex">
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
-          className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
+          className="mt-3 text-secondary text-[17px] leading-[30px]"
         >
-            Here are some of my class and side projects! Besides this website, which uses React, Tailwind CSS, and Three.js,
-            I’ve designed and coded some others. I’ve also made a few android apps. 
-            I had a lot of fun with creating these; I love seeing my visions come to life.
+          Here are some of my class and side projects! Besides this website,
+          which uses React, Tailwind CSS, and Three.js, I’ve designed and coded
+          some others. I’ve also made a few android apps. I had a lot of fun
+          with creating these; I love seeing my visions come to life.
         </motion.p>
       </div>
 
-      <div className="mt-20 flex flex-wrap gap-7">
+      <div className="mt-20 grid lg:grid-cols-2 gap-7">
         {projects.map((project, index) => (
-          <ProjectCard
-            key={`project-${index}`}
-            index={index}
-            {...project}
-          />
+          <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
       </div>
     </>
-  )
-}
+  );
+};
 
-export default SectionWrapper(Works, "")
+export default SectionWrapper(Works, "");

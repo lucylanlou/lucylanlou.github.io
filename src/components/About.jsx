@@ -1,13 +1,13 @@
-import React from 'react'
+import React from "react";
 import Tilt from "react-parallax-tilt";
-import { motion } from 'framer-motion';
+import { motion } from "framer-motion";
 
-import { styles } from '../styles';
-import { services } from '../constants';
-import { fadeIn, textVariant } from '../utils/motion';
-import { SectionWrapper } from '../hoc';
+import { styles } from "../styles";
+import { services } from "../constants";
+import { fadeIn, textVariant } from "../utils/motion";
+import { SectionWrapper } from "../hoc";
 
-const ServiceCard = ({ index, title, icon  }) => {
+const ServiceCard = ({ index, title, icon }) => {
   return (
     <Tilt className="sm:w-[250px] w-full">
       <motion.div
@@ -18,18 +18,21 @@ const ServiceCard = ({ index, title, icon  }) => {
           options={{
             max: 45,
             scale: 1,
-            speed: 450
+            speed: 450,
           }}
           className="bg-white-100 rounded-[20px] py-5 px-12 min-h-[280px] flex
           justify-evenly items-center flex-col"
         >
           <img src={icon} alt={title} className="w-16 h-16 object-contain" />
-          <h3 className="text-black-100 text-[20px] font-bold text-center"> {title}</h3>
+          <h3 className="text-black-100 text-[20px] font-bold text-center">
+            {" "}
+            {title}
+          </h3>
         </div>
       </motion.div>
     </Tilt>
-  )
-}
+  );
+};
 
 const About = () => {
   return (
@@ -39,15 +42,16 @@ const About = () => {
         <h2 className={styles.sectionHeadText}>Overview.</h2>
       </motion.div>
 
-      <motion.p 
+      <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
+        className="mt-4 text-secondary text-[17px] leading-[30px]"
       >
-        I graduated from UC Berkeley with a major in computer science and the 
-        Berkeley Certificate of Design Innovation. I’m interested in full stack engineering 
-        to utilize both my software expertise and UI/UX design knowledge to create 
-        accessible, enjoyable, and innovative products. I'm passionate and bold; 
-        I strive to develop things I'm proud of and am not afraid to be different.
+        I graduated from UC Berkeley with a major in computer science and the
+        Berkeley Certificate of Design Innovation. I’m interested in full stack
+        engineering to utilize both my software expertise and UI/UX design
+        knowledge to create accessible, enjoyable, and innovative products. I'm
+        passionate and bold; I strive to develop things I'm proud of and am not
+        afraid to be different.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
@@ -56,7 +60,7 @@ const About = () => {
         ))}
       </div>
     </>
-  )
-}
+  );
+};
 
-export default SectionWrapper(About, "about")
+export default SectionWrapper(About, "about");
