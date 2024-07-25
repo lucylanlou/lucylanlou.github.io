@@ -30,7 +30,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <FlowersCanvas className="flex grow md:w-[750px] mt-5 mx-auto" />
+      <FlowersCanvas />
 
       <div className="absolute z-10 sm:bottom-[10px] bottom-[50px] w-full flex justify-center items-center">
         <a href="#about">
