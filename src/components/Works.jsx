@@ -82,8 +82,8 @@ const Works = () => {
         >
           Here are some of my class and side projects! Besides this website,
           which uses React, Tailwind CSS, and Three.js, I’ve designed and coded
-          some others. I’ve also made a few android apps. I had a lot of fun
-          with creating these; I love seeing my visions come to life.
+          some others. I’ve also made a few mobile apps. I had a lot of fun with
+          creating these; I love seeing my visions come to life.
         </motion.p>
       </div>
 

@@ -32,7 +32,7 @@ const Hero = () => {
 
       <FlowersCanvas />
 
-      <div className="absolute z-10 sm:bottom-[10px] bottom-[50px] w-full flex justify-center items-center">
+      {/* <div className="absolute z-10 sm:bottom-[10px] bottom-[50px] w-full flex justify-center items-center">
         <a href="#about">
           <div className="w-[55px] h-[64px] flex justify-center items-start p-0">
             <motion.div
@@ -58,7 +58,7 @@ const Hero = () => {
             </motion.div>
           </div>
         </a>
-      </div>
+      </div> */}
     </section>
   );
 };
