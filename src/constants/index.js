@@ -141,9 +141,10 @@ const experiences = [
     date: "August 2023 - Present",
     points: [
       "Spearheaded frontend/UI/UX development, expediting our product, TrustWrite, to beta stage",
-      "Designed & implemented: dashboards with statistical graphs, tables to list student submissions from Canvas LMS, timed quizzes, and score reports; with a focus on usability and intuitive design",
-      "Rebranded color scheme and redesigned logo to better reflect company values and mission",
-      "Redesigned & launched landing pages ethicable.ai & trustwrite.ai, attracting 8 new potential clients",
+      "Drafted software design documents & created task timelines; led meetings with exec board to finalize product specs and with engineering team to discuss security concerns & backend integration",
+      "Prototyped with Figma & implemented with React: dashboards, statistical graphs, tables listing data from Canvas LMS, timed quizzes, and score reports; with a focus on accessibility and intuitive design",
+      "Rebranded color scheme from purple to green and redesigned logo from a hacker icon to a book to better reflect the company values and mission of assurance, accuracy, and approachability",
+      "Redesigned & launched landing pages ethicable.ai & trustwrite.ai, using principles of hierarchy, spacing, and consistency to navigate users to contact sales, attracting 8 new potential clients",
       "Integrated code with backend engineer to support GraphQL, Redis Pub/Sub, and AWS SQS and SNS",
     ],
   },
@@ -154,7 +155,9 @@ const experiences = [
     iconBg: "#FFF8FC",
     date: "July 2022 - June 2023",
     points: [
-      "Collaborated with R&D scientists and UX designers to accelerate an embedded systems medical PCR testing device to feature completion by testing/troubleshooting/fixing bugs and implementing UI & new functionalities: USB exporting, barcode scanning, and user authentication",
+      "Collaborated with engineers, R&D scientists, and UX designers team to accelerate an embedded systems medical PCR testing device to feature completion through daily scrum, weekly syncs, and labs",
+      "Implemented UI and new functionalities (USB log exporting, barcode scanning, user authentication) on device with C++ using a hierarchical state machine (HSM) approach",
+      "Tested and peer reviewed frequently to troubleshoot and fix bugs along the way, ensuring reliability",
       "Optimized and improved the device’s target line detection algorithm accuracy from 44% to 98% using image processing techniques such as smoothing, color contrast, and pixel derivatives",
     ],
   },
@@ -166,20 +169,20 @@ const experiences = [
     date: "Jan 2021 - August 2021",
     points: [
       "Learned React and React Native in order to handle mobile/web development in house, eliminating outsourcing costs and increasing project delivery efficiency",
-      "Built React Native mobile app that scans patient info barcodes and takes pictures and uploads test result strips to AWS Cloud to aid with recording mass PCR testing",
-      "Enhanced Material UI ReactJS website that was used to view test results with the following: company branding, test strip image viewing ability, and interactive customer statistical charts and graphs",
+      "Built React Native mobile app that scans patient info barcodes and takes pictures and uploads test result strips to AWS Cloud to be easily viewed on our product website",
+      "Enhanced the Material UI ReactJS website used to view test results with the following: company branding, test strip image viewing ability, and interactive customer statistical charts and graphs ",
       "Created Power BI reports to assist the marketing team in optimizing spending and maximizing ROI",
     ],
   },
   {
-    title: "Software and User Interface Intern",
+    title: "Software Engineer Intern",
     company_name: "Mesa Biotech",
     icon: mesabiotech,
     iconBg: "#FFF8FC",
     date: "June 2020 - August 2021",
     points: [
-      "Prototyped with Adobe XD and creatively implemented the design team’s UI changes for our touch screen product, overcoming limitations of the STemWin GUI graphics library",
-      "Developed features such a maintenance user w/ hashed passwords & a test result print functionality",
+      "Prototyped with Adobe XD and creatively implemented with C++ the design team’s UI changes for our touch screen product, overcoming limitations of the STemWin GUI graphics library",
+      "Developed features such a maintenance user with hashed passwords & a test result print functionality",
       "Initiated unit-testing with VS C++ NativeUnit Test framework to aid test driven development",
       "Updated SW requirements documentation & refactored code to improve maintainability & scalability",
     ],
@@ -196,33 +199,6 @@ const experiences = [
       "Incorporated different teaching strategies to adapt to different students such as scaffolding, peer learning, and using analogies",
       "Collaborated and communicated with other mentors regularly for feedback.",
     ],
-  },
-];
-
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 
@@ -332,4 +308,4 @@ const projects = [
   // },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, projects };
