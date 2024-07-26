@@ -50,15 +50,15 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] leading-[30px]"
       >
-        I graduated from UC Berkeley with a major in computer science and the
+        I graduated from UC Berkeley with a BA in Computer Science and the
         Berkeley Certificate of Design Innovation. I’m interested in full stack
         engineering to utilize both my software expertise and UI/UX design
         knowledge to create accessible, enjoyable, and innovative products. I'm
-        passionate and bold; I strive to develop things I'm proud of and am not
-        afraid to be different.
+        passionate, detail-oriented, and bold; I strive to develop things I'm
+        proud of and am not afraid to be different.
       </motion.p>
 
-      <div className="mt-20 grid lg:grid-cols-4 xs:grid-cols-2 md:gap-8 gap-5">
+      <div className="md:mt-20 mt-12 grid lg:grid-cols-4 xs:grid-cols-2 md:gap-8 gap-5">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
@@ -67,4 +67,4 @@ const About = () => {
   );
 };
 
-export default SectionWrapper(About, "about");
+export default SectionWrapper(About, "about", 0.25);

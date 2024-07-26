@@ -11,7 +11,7 @@ const Tech = () => {
         </div>
       ))}
     </div>
-  )
-}
+  );
+};
 
-export default SectionWrapper(Tech, "")
+export default SectionWrapper(Tech, "", 0.2);

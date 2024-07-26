@@ -138,7 +138,7 @@ const experiences = [
     company_name: "Ethicable",
     icon: ethicable,
     iconBg: "#FFF8FC",
-    date: "August 2023 - Present",
+    date: "August 2023 - April 2024",
     points: [
       "Spearheaded frontend/UI/UX development, expediting our product, TrustWrite, to beta stage",
       "Drafted software design documents & created task timelines; led meetings with exec board to finalize product specs and with engineering team to discuss security concerns & backend integration",
