@@ -57,10 +57,10 @@ const Contact = () => {
   };
 
   return (
-    <div className="xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden mb-10">
+    <div className="lg:mt-12 lg:flex-row flex-col-reverse flex gap-10 overflow-hidden mb-10 h-full items-stretch justify-stretch">
       <motion.div
         variants={slideIn("left", "tween", 0.1, 1)}
-        className="flex-[0.75] bg-white-100 p-8 rounded-2xl"
+        className="flex-1 lg:w-1/2 w-full flex flex-col bg-white-100 p-8 rounded-2xl"
       >
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
@@ -119,15 +119,12 @@ const Contact = () => {
         </form>
       </motion.div>
 
-      {/* <div className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px]"> */}
       <motion.div
         variants={slideIn("right", "tween", 0.1, 1)}
-        className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px]"
+        className="lg:flex-1 lg:w-1/2 w-full h-[400px] lg:h-auto"
       >
         <CatCanvas />
       </motion.div>
-      {/* <div className="text-black-100"><a href="https://sketchfab.com/3d-models/dingus-the-cat-2ca7f3c1957847d6a145fc35de9046b0">Dingus the Cat</a> is a placeholder before I 3D scan my cat Margo</div> */}
-      {/* </div> */}
     </div>
   );
 };

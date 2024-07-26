@@ -269,7 +269,7 @@ const projects = [
   {
     name: "KingPin Donuts Remake",
     description:
-      "KingPin Donuts is a donut shop near UC Berkeley. They have great donuts; however, their website according to my web deisgn class needed improvement (update: they've redesigned their website at some point!), so that was our assignment. This is my remake. I wanted it to be a simple design and put an emphasis on using mouthwatering pictures since luring customers in would be the goal of a donut website.",
+      "KingPin Donuts is a donut shop near UC Berkeley. They have great donuts; however, their website according to my web deisgn class needed improvement (update: they've since redesigned their website!), so that was our assignment. This is my remake. I wanted it to be a simple design and put an emphasis on using mouthwatering pictures since luring customers in would be the goal of a donut website.",
     tags: [
       {
         name: "web design",
