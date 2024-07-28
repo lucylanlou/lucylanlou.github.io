@@ -57,7 +57,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="lg:mt-12 lg:flex-row flex-col-reverse flex gap-10 overflow-hidden mb-10 h-full items-stretch justify-stretch">
+    <div className="lg:mt-12 lg:flex-row flex-col-reverse flex lg:gap-10 gap-2 overflow-hidden mb-10 h-full items-stretch justify-stretch">
       <motion.div
         variants={slideIn("left", "tween", 0.1, 1)}
         className="flex-1 lg:w-1/2 w-full flex flex-col bg-white-100 p-8 rounded-2xl"
@@ -121,7 +121,7 @@ const Contact = () => {
 
       <motion.div
         variants={slideIn("right", "tween", 0.1, 1)}
-        className="lg:flex-1 lg:w-1/2 w-full h-[400px] lg:h-auto"
+        className="lg:flex-1 lg:w-1/2 w-full md:h-[400px] sm:h-[300px] xs:h-[250px] h-[200px] lg:h-auto"
       >
         <CatCanvas />
       </motion.div>
