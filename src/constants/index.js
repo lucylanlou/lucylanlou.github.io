@@ -152,7 +152,7 @@ const experiences = [
     iconBg: "#FFF8FC",
     date: "July 2022 - June 2023",
     points: [
-      "Collaborated cross-functionally to develope an embedded medical PCR device",
+      "Collaborated cross-functionally to develop an embedded medical PCR device",
       "Implemented UI and functionalities such as usb export, test workflows, and user authentication on the device with C++",
       "Enhanced target line detection accuracy with image processing techniques",
     ],
@@ -165,7 +165,7 @@ const experiences = [
     date: "Jan 2021 - August 2021",
     points: [
       "Used React and React Native to develop a web and mobile app that streamlines covid testing process",
-      "Implemented ability for the mobile app to scan patient info barcodes and upload test result strip images to the cloud",
+      "Implemented the ability for the mobile app to scan patient info barcodes and upload test result images to the cloud",
       "Collaborated with the backend engineer to display those uploaded results and images on the web app",
     ],
   },
@@ -179,7 +179,6 @@ const experiences = [
       "Prototyped with Adobe XD and implemented with C++ UI changes for our touch screen product",
       "Developed features such a maintenance user with hashed passwords & a test result print functionality",
       "Initiated unit-testing with VS C++ NativeUnit Test framework to aid test driven development",
-      "Updated SW requirements documentation & refactored code to improve maintainability & scalability",
     ],
   },
   {
