@@ -140,12 +140,9 @@ const experiences = [
     iconBg: "#FFF8FC",
     date: "August 2023 - April 2024",
     points: [
-      "Spearheaded frontend/UI/UX development, expediting our product, TrustWrite, to beta stage",
-      "Drafted software design documents & created task timelines; led meetings with exec board to finalize product specs and with engineering team to discuss security concerns & backend integration",
-      "Prototyped with Figma & implemented with React: dashboards, statistical graphs, tables listing data from Canvas LMS, timed quizzes, and score reports; with a focus on accessibility and intuitive design",
-      "Rebranded color scheme from purple to green and redesigned logo from a hacker icon to a book to better reflect the company values and mission of assurance, accuracy, and approachability",
-      "Redesigned & launched landing pages ethicable.ai & trustwrite.ai, using principles of hierarchy, spacing, and consistency to navigate users to contact sales, attracting 8 new potential clients",
-      "Integrated code with backend engineer to support GraphQL, Redis Pub/Sub, and AWS SQS and SNS",
+      "Spearheaded frontend/UI/UX development for TrustWrite, a web app empowering teachers and academic institutions to efficiently verify the authenticity of assignments",
+      "Prototyped landing pages, dashboards, account creation workflows with Figma, implemented in React, and collaborated on backend integration",
+      "Focussed on accessibility and intuitive design",
     ],
   },
   {
@@ -155,10 +152,9 @@ const experiences = [
     iconBg: "#FFF8FC",
     date: "July 2022 - June 2023",
     points: [
-      "Collaborated with engineers, R&D scientists, and UX designers team to accelerate an embedded systems medical PCR testing device to feature completion through daily scrum, weekly syncs, and labs",
-      "Implemented UI and new functionalities (USB log exporting, barcode scanning, user authentication) on device with C++ using a hierarchical state machine (HSM) approach",
-      "Tested and peer reviewed frequently to troubleshoot and fix bugs along the way, ensuring reliability",
-      "Optimized and improved the device’s target line detection algorithm accuracy from 44% to 98% using image processing techniques such as smoothing, color contrast, and pixel derivatives",
+      "Collaborated cross-functionally to develope an embedded medical PCR device",
+      "Implemented UI and functionalities such as usb export, test workflows, and user authentication on the device with C++",
+      "Enhanced target line detection accuracy with image processing techniques",
     ],
   },
   {
@@ -168,10 +164,9 @@ const experiences = [
     iconBg: "#FFF8FC",
     date: "Jan 2021 - August 2021",
     points: [
-      "Learned React and React Native in order to handle mobile/web development in house, eliminating outsourcing costs and increasing project delivery efficiency",
-      "Built React Native mobile app that scans patient info barcodes and takes pictures and uploads test result strips to AWS Cloud to be easily viewed on our product website",
-      "Enhanced the Material UI ReactJS website used to view test results with the following: company branding, test strip image viewing ability, and interactive customer statistical charts and graphs ",
-      "Created Power BI reports to assist the marketing team in optimizing spending and maximizing ROI",
+      "Used React and React Native to develop a web and mobile app that streamlines covid testing process",
+      "Implemented ability for the mobile app to scan patient info barcodes and upload test result strip images to the cloud",
+      "Collaborated with the backend engineer to display those uploaded results and images on the web app",
     ],
   },
   {
@@ -181,7 +176,7 @@ const experiences = [
     iconBg: "#FFF8FC",
     date: "June 2020 - August 2021",
     points: [
-      "Prototyped with Adobe XD and creatively implemented with C++ the design team’s UI changes for our touch screen product, overcoming limitations of the STemWin GUI graphics library",
+      "Prototyped with Adobe XD and implemented with C++ UI changes for our touch screen product",
       "Developed features such a maintenance user with hashed passwords & a test result print functionality",
       "Initiated unit-testing with VS C++ NativeUnit Test framework to aid test driven development",
       "Updated SW requirements documentation & refactored code to improve maintainability & scalability",
@@ -197,7 +192,6 @@ const experiences = [
       "Tutored small group every week on CS61A topics improving retention of students in the class",
       "Created cribsheets on various topics for future mentors",
       "Incorporated different teaching strategies to adapt to different students such as scaffolding, peer learning, and using analogies",
-      "Collaborated and communicated with other mentors regularly for feedback.",
     ],
   },
 ];
